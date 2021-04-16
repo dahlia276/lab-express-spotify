@@ -1,0 +1,36 @@
+body {
+    background-image: url(/images/spotify-background.jpeg);
+    background-size: cover;
+}
+
+.albums {
+    display: inline-flex;
+    flex-wrap: inherit;
+}
+
+.card {
+    width: 366px;
+}
+
+.card-track {
+    flex-direction: inherit;
+    width: 600px;
+}
+
+.card-title {
+    width: 400px;
+}
+
+.home {
+    text-align: center;
+    margin-top: 350px;
+}
+
+form {
+    background-color: rgba(230, 215, 215, 0.5);
+    width: 400px;
+    padding: 20px;
+    display: inline-block;
+
+}
+
